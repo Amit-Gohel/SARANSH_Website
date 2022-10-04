@@ -5,7 +5,7 @@ import summrizerMain
 
 app=Flask(__name__)
 camera=cv2.VideoCapture(1)
-text = "Amit"
+text = "Amit50"
 summary = "Gohel"
 def generate_frames():
     while True:

@@ -129,7 +129,7 @@ body {
 
 body .page-content {
   background-color: #27292a;
-  padding: 60px;
+  padding: 50px;
   border-radius: 23px;
   display: flex;
 }
@@ -217,7 +217,6 @@ section {
   color: #ec6090;
   font-size: 34px;
   text-decoration: none;
-  margin-bottom: 30px;
 }
 
 .heading-section h4 em {
@@ -776,6 +775,7 @@ Banner Style
   background-image: url(../images/banner-bg.jpg);
   background-position: center center;
   background-size: cover;
+  width: 60%;
   min-height: 380px;
   border-radius: 23px;
   padding: 80px 60px;
@@ -790,9 +790,9 @@ Banner Style
 }
 
 .main-banner h4 {
-  font-size: 45px;
+  font-size: 30px;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  text-align: center;
 }
 
 .main-banner h4 em {
@@ -806,10 +806,22 @@ Most Popular Style
 --------------------------------------------- 
 */
 
+.capture-image{
+  margin-top: 30px !important;
+  margin-left: 0 !important;
+  width: 100% !important;
+  padding: 30px;
+  background-color: #1f2122;
+  border-radius: 23px;
+}
+
 .most-popular {
   padding: 30px;
   background-color: #1f2122;
   border-radius: 23px;
+  margin-left: 30px;
+  /* height: 100%; */
+  width: 40%;
 }
 
 .most-popular .item {
@@ -867,6 +879,80 @@ Most Popular Style
   text-align: center;
   margin-bottom: -53px;
 }
+
+
+/* 
+---------------------------------------------
+Most Popular - 1 Style
+--------------------------------------------- 
+*/
+
+
+.most-popular1 {
+  padding: 30px;
+  background-color: #1f2122;
+  border-radius: 23px;
+  /* margin-left: 30px; */
+  /* height: 100%; */
+  width: 40%;
+}
+
+.most-popular1 .item {
+  background-color: #27292a;
+  padding: 30px 15px;
+  border-radius: 23px;
+  margin-bottom: 30px;
+}
+
+.most-popular1 .item .item {
+  padding: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+  margin-bottom: 0px;
+}
+
+.most-popular1 .item img {
+  border-radius: 23px;
+}
+
+.most-popular1 .item h4 {
+  font-size: 15px;
+  margin-bottom: 0px;
+  /* display: inline-block; */
+  display: inline-block;
+}
+
+.most-popular1 .item span {
+  color: #666;
+  display: block;
+  margin-top: 7px;
+  font-weight: 400;
+}
+
+.most-popular1 .item ul {
+  float: right;
+  margin-top: 20px;
+}
+
+.most-popular1 .item ul li {
+  text-align: right;
+  color: #fff;
+  font-size: 14px;
+}
+
+.most-popular1 .item ul li:first-child i {
+  color: yellow;
+}
+
+.most-popular1 .item ul li:last-child i {
+  color: #ec6090;
+}
+
+.most-popular1 .main-button {
+  text-align: center;
+  margin-bottom: -53px;
+}
+
 
 /* 
 ---------------------------------------------
@@ -1686,6 +1772,9 @@ body {
     min-height: 100%;
   }
   .most-popular .item .inner-item {
+    margin-bottom: 20px;
+  }
+  .most-popular1 .item .inner-item {
     margin-bottom: 20px;
   }
 }
